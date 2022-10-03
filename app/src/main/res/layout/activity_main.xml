@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_all_out_24"
+        android:scaleType="fitStart"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+
+    />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textColor="@color/brown"
+        android:textSize="35sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="30dp"
+
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to start working"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp"
+
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your phone number"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="25dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_baseline_arrow_forward_24"
+        android:background="@color/brown"
+        android:layout_marginRight="170dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="60dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back to sign in"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="45dp"/>
+
+
+
+</LinearLayout>
